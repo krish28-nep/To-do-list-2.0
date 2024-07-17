@@ -1,0 +1,59 @@
+body {
+  background: #e8cbc0; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #636fa4,
+    #e8cbc0
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #636fa4,
+    #e8cbc0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #fc354c; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #0abfbc,
+    #fc354c
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #0abfbc,
+    #fc354c
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 500px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.Add-button {
+  background-color: rgb(63, 167, 63);
+  font-size: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 5px 2px;
+}
+
+.Delete-button {
+  background-color: azure;
+  border-radius: 30%;
+  margin-left: 100px;
+}
+
+ol {
+  margin-left: 100px;
+}
+
+.search-bar {
+  font-size: 1.2rem;
+  border-radius: 7px;
+}
